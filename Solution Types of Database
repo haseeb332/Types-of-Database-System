@@ -1,1 +1,221 @@
+  1-Types of Database 
+  2- Their storage Mechanism
+  3- uses
+  4- Advantages / Disadvantages
+  Images
+  Challenges
+  Data Acess Techonology
+  
+  
+ 
 
+1.	Centralized database
+A centralized database is one that operates entirely within a single location. 
+Use: Centralized databases are typically used by bigger organizations, such as a business or university.
+Storage Mechanism: The database itself is located on a central computer or database system. Users can access the database through a computer network, but it is the central computer that runs and maintains the database.
+Advantages: 
+•	The integrity of data is increased as the whole database is stored at a single physical location. In this way, it is easy to manage the data is most consistent and accurate in this way.
+
+•	The data redundancy is controlled in a centralized database. All the data is stored in one location and it cannot distribute on different places. So, it is easier to make sure all the data stored is not duplicate. in this way redundancy easily control
+Disadvantages:
+•	If the network is slow, the accessibility of required because all data is stored in one place. Since, all the data is at one location. The searching process takes much time.
+•	If centralized server failure due to some reasons all databases will be a loss.
+•	All data is stored in one place when many users access data at the same time it may create many problems.
+Image:
+ 
+Challenges: As all the data is stored in a centralized server if the main server crashes all the data will be lost
+Data Access Technology:
+•	Using Unicode Bind and Define in Pro*C/C++ to Access the Database
+•	Using the Unicode API Provided with OCI to Access the Database
+•	Using the OCI API to Access the Database
+
+2.	Cloud database
+A cloud database is one that runs over the Internet. 
+Use: To use a cloud database, users can either build one themselves or pay for a service to store their data for them. Encryption is an essential part of any cloud database, as all information needs to be protected as it is transmitted online.
+Storage Mechanism: The data is stored on a local hard drive or server, but the information is available online. This makes it easy to access your files from anywhere if you have an Internet connection. 
+Advantages:
+•	Easy implementation. Cloud hosting allows business to retain the same applications and business processes without having to deal with the backend technicalities. Readily manageable by the Internet, a cloud infrastructure can be accessed by enterprises easily and quickly. 
+•	Accessibility. Access your data anywhere, anytime. An Internet cloud infrastructure maximizes enterprise productivity and efficiency by ensuring your application is always accessible. This allows for easy collaboration and sharing among users in multiple locations.
+•	No hardware required. Since everything will be hosted in the cloud, a physical storage center is no longer needed. However, a backup could be worth looking into in the event of a disaster that could leave your company's productivity stagnant.
+
+Disadvantages:
+•	No longer in control. When moving services to the cloud, you are handing over your data and information. For companies who have an in-house IT staff, they will be unable to handle issues on their own. However, Stratosphere Networks has a 24/7 live help desk that can rectify any problems immediately. May not get all the features.
+•	Not all cloud services are the same. Some cloud providers tend to offer limited versions and enable the most popular features only, so you may not receive every feature or customization you want. Before signing up, make sure you know what your cloud service provider offers. Does not mean you should do away with servers. 
+•	You may have fewer servers to handle which means less for your IT staff to handle, but that does not mean you can let go of all your servers and staff. While it may seem costly to have data centers and a cloud infrastructure, redundancy is key for backup and recovery.
+
+Image:
+ 
+
+Challenges:
+There are security as well as cost management issues. Resources and expertise is also an issue.
+Data Access Technology:
+A cloud database is a database service built and accessed through a cloud platform. Accessed through a web interface or vendor-provided API.
+3.	Commercial database
+A commercial database is any that is designed by a commercial business. Businesses develop feature-rich databases, which they then sell to their customers. Commercial databases can vary in terms of composition or the technology they use. 
+Use: The defining trait of commercial databases is having users pay to use them, unlike open-source databases such as iCloud or Google Drive beyond a certain limit of storage.
+Storage Mechanism: The data is saved on the local servers of the company that is providing the facility and is accessible to all its subscribers remotely. 
+Advantages:
+•	Provides remote access of data all over the world to its subscribers.
+•	They are cost efficient and are efficient.
+Disadvantages: 
+•	It has a limited volume and is costly.
+•	There is a security risk data can be attacked in company servers.
+Image:
+ 
+Challenges:
+There is always security risks from hackers. It is also costly.
+Data Access Technology:
+A commercial database is a database service built and accessed through a cloud platform. Accessed through a web interface or vendor-provided API.
+4.	Distributed database
+A distributed database is one that is spread out over multiple devices.
+Use: The benefits of a distributed database include increased speed, better reliability and ease of expansion.
+Storage Mechanism: Rather than having all information stored on a single device, like other databases on this list, distributed databases will operate across multiple machines, such as different computers within the same location or across a network. 
+Advantages:
+•	Modular Development − If the system needs to be expanded to new locations or new units, in centralized database systems, the action requires substantial efforts and disruption in the existing functioning. However, in distributed databases, the work simply requires adding new computers and local data to the new site and finally connecting them to the distributed system, with no interruption in current functions.
+•	More Reliable − In case of database failures, the total system of centralized databases comes to a halt. However, in distributed systems, when a component fails, the functioning of the system continues may be at a reduced performance. Hence DDBMS is more reliable.
+•	Better Response − If data is distributed in an efficient manner, then user requests can be met from local data itself, thus providing faster response. On the other hand, in centralized systems, all queries must pass through the central computer for processing, which increases the response time.
+Disadvantages:
+•	Need for complex and expensive software − DDBMS demands complex and often expensive software to provide data transparency and co-ordination across the several sites.
+•	Processing overhead − Even simple operations may require a large number of communications and additional calculations to provide uniformity in data across the sites.
+•	Data integrity − The need for updating data in multiple sites pose problems of data integrity.
+Image:
+ 
+Challenges:
+ Because the data within your distributed database is hosted on physical servers (aka physical storage units), it is vulnerable to the same threats any physical storage device faces: flood, fire, lightning, other physical damage, technical failure and more.
+Data Access Technology:
+•	Remediate (patch and fix) existing custom and packaged software to correct any two-digit date issues in the code; or
+
+5.	Replace outdated legacy software with modern, Y2K-compliant software packages…typically ERP software from vendors such as SAP, Oracle, PeopleSoft, and others.
+
+6.	End-user database
+End-user is a term used in product development that refers to the person who use the product. 
+Use: An end-user database is, therefore, a database that is primarily used by a single person. A good example of this type of database is a spreadsheet stored on your local computer.
+Storage Mechanism: As it is used by a single person mostly, so it is stored on the local storage device of the user.
+Advantages:
+•	Frees IS resources for higher priority projects.
+•	May help reduce the hidden backlog.
+•	Faster design/implementation cycle
+•	More acceptable to users
+•	Reduces communications problems between users and IS.
+•	Encourages innovation and creative solutions.
+
+Disadvantages:
+•	Duplication or effort and waste of resources.
+•	Greatly increased costs.
+•	Loss of control over data.
+•	Loss of control of quality in both programs and data.
+•	Incompatibles prevent sharing.
+•	Can be used to circumvent control processes, such as the steering committee.
+•	Generally, produces narrow, inflexible systems with short lives.
+Image:
+ 
+Challenges:
+Duplication or effort and waste of resources greatly increased costs, loss of control over data.
+Data Access Technology:
+End user access the database through an interactive software from where the database is located on the server.
+7.	Graph database
+Graph databases are databases that focus equally on the data and the connections between them.
+Use: We live in a connected world! There are no isolated pieces of information, but rich, connected domains all around us. Only a database that natively embraces relationships can store, process, and query connections efficiently. While other databases compute relationships at query time through expensive JOIN operations, a graph database stores connections alongside the data in the model.
+Storage Mechanism: In this database, data is not constricted to pre-defined models. Most other databases can find connections between data when you run a search. With a graph database, these connections are stored inside the database right alongside the original data. This makes for a more efficient and faster database when your primary goal is to manage the connections between your data.
+Advantages:
+•	The strength of a database can be measured using four principal factors: Integrity, performance, efficiency, and scalability.
+
+•	The data query ought to become quicker and simpler – the main purpose of graph databases can be roughly summarized in this way. 
+
+•	With the graph database model, real facts can be stored in a natural way. The structure used is very similar to human thinking, and this is why the links are so clear.
+
+Disadvantages:
+
+•	Where relational databases reach their capacity limits, the graph-based model is particularly agile, because complexity and the quantity of data do not negatively influence the query process in this model.
+
+•	Graph databases are not a complete solution, though. They are limited, for example, where scalability is concerned. As they are principally designed for one-tier architecture, growth represents a (mathematical) challenge. Plus, there is still no uniform query language.
+
+Image:
+
+ 
+Challenges:
+These is no uniform query language for graph database and as they are designed for principally one tier architechture.
+Data Access Technology:
+C, C++, python and java is used to access graph database. Some graph databases uses NoSql, php, scala and ruby.
+8.	NoSQL database
+There are essentially two major types of databases, NoSQL and Relational, with all the others being different versions of these. 
+Use: The scalability of NoSQL databases allows one database to serve both transactional and analytical workloads from the same database.
+Storage Mechanism: A NoSQL database has a hierarchy like a file folder system and the data within it is unstructured. This lack of structure allows them to process larger amounts of data at speed and makes it easier to expand in the future. Cloud computing regularly makes use of NoSQL databases.
+Advantages:
+•	Elastic scalability: RDBMSs are not as easy to scale out on commodity clusters, whereas NoSQL databases are made for transparent expansion, taking advantage of new nodes. These databases are designed for use with low-cost commodity hardware. In a world where upward scalability is being replaced by outward scalability, NoSQL databases are a better fit.
+•	Big data applications: Given that transaction rates are growing from recognition, there is need to store massive volumes of data. While RDBMSs have grown to match the growing needs, but it’s difficult to realistically use one RDBMS to manage such data volumes. These volumes are however easily handled by NoSQL databases.
+
+Disadvantages:
+•	Less mature: RDBMSs have been around a lot longer than NoSQL databases. The first RDBMS was released into the market about 25 years ago. While proponents of NoSQL may present this as a disadvantage citing that age is an indicator of obsolescence, with the advancement of years RDBMSs have matured to become richly functional and stable systems.
+
+•	Less support: All enterprises need to have the reassurance that should a key function within their data management system fail, they will have access to competent support in a timely manner. All the RDMBS vendors have made great effort to ensure that such services are available, and enterprises can also enlist 24 hour support from remote database administration services, which have the expertise to handle most of the RDBMSs.
+
+•	Each NoSQL database in contrast tends to be open source, with just one or two firms handling the support angle. Many of them have been developed by smaller startups which lack the resources to fund support on a global scale, and the credibility that the established RDBMS vendors like Oracle, IBM and Microsoft enjoy.
+Image:
+ 
+Challenges:
+Nosql databases are less mature and they lack credibility because they are mostly developed by small startups.
+Data Access Technology:
+NoSQL systems are also sometimes called "Not only SQL" to emphasize that they may support SQL-like query languages or sit alongside SQL databases in polyglot-persistent architectures.
+9.	Objected-oriented database.
+Object-oriented databases are ones in which is the data is represented as objects and classes. An object is a real-world item, such as a name or phone number, while a class is a group of objects. Objected-oriented databases are a type of relational database.
+Use: Consider using an object-oriented database when you have a large amount of complex data that you want to process quickly.
+Storage Mechanism: By creating a class in your program and saving it as it is in a database, reading back and start using it again.
+Object databases bring permanent persistent to objects. Objects can be stored in persistent storage forever.
+Advantages:
+•	Enriched modeling capabilities: The object-oriented data model allows the ‘real world’ to be modeled more closely. The object, which encapsulates both state and behavior, is a more natural and realistic representation of real-world objects. An object can store all the relationships it has with other objects, including many-to-many relationships, and objects can be formed into complex objects that the traditional data models cannot cope with easily.
+•	Extensibility: OODBMSs allow new data types to be built from existing types. The ability to factor out common properties of several classes and form them into a super-class that can be shared with sub-classes can greatly reduce redundancy within system is regarded as one of the main advantages of object orientation. Further, the reusability of classes promotes faster development and easier maintenance of the database and its applications.
+•	Capable of handling a large variety of data types: Unlike traditional databases (such as hierarchical, network or relational), the object-oriented database can store different types of data, for example, pictures, voice video, including text, numbers and so on.
+•	More expressive query language: Navigational access from the object is the most common form of data access in an OODBMS. This contrasts with the associative access of SQL (that is, declarative statements with selection based on one or more predicates). Navigational access is more suitable for handling parts explosion, recursive queries, and so on
+
+Disadvantages:
+•	Lack of universal data model: There is no universally agreed data model for an OODBMS, and most models lack a theoretical foundation. This disadvantage is seen as a significant drawback and is comparable to per-relational systems.
+•	Lack of experience: In comparison to RDBMSs the use of OODBMS is still relatively limited. This means that we do not yet have the level of experience that we have with traditional systems. OODBMSs are still very much geared towards the programmer, rather than the naïve end-user. Also, there is a resistance to the acceptance of the technology. While the OODBMS is limited to a small niche market, this problem will continue to exist.
+•	Complexity: The increased functionality provided by the OODBMS (such as the illusion of a single-level storage model, pointer sizzling, long-duration transactions, version management, and schema evolution–makes the system more complex than that of traditional DBMSs. In complexity leads to products that are more expensive and more difficult to use.
+Image:
+ 
+Challenges:
+Not as widely adopted as relational databases, no universal data model. Lacks theoretical foundations and standards does not support views.
+Data Access Technology:
+OOP Database uses Object Oriented programming concepts such as inheritance, polymorphism and encapsulation to store and access data.
+10.	Open-source database
+An open-source database is designed for the public to use for free.
+Use: Unlike commercial databases, users can download or sign up for open-source databases without paying a fee. The term "open source" refers to a program in which users can see how it is made and make their own changes to the program. Open-source databases are typically much cheaper than commercial databases, but they can also lack some of the more advanced features found in commercial databases.
+Storage Mechanism: The two most widely used and best-known open-source file systems are the Oracle-owned ZFS and Red Hat’s GlusterFS. The main features of this 128-bit open-source file system are its ability to manage very large file systems, block-level data deduplication its protection from bit rot (AKA, silent corruption) by near-constant disk check summing, and automatic repair.
+Advantages:
+•	Cheaper than commercially marketed products: According to studies, open-source software collectively help business owners save around $60 billion a year. This might seem unbelievable at first, but it is not surprising since these programs are developed to be accessible to anyone (especially those who cannot afford to buy commercial products). For one thing, they are usually offered for free and do not require you to pay for any additional copy you download. 
+
+•	Created by skillful and talented people: Large and well-established software companies have the financial capability to hire the best talent in the business to create their products. Because of this, many people opt to buy computer programs from these firms because they think they will get great value for their money by doing so.
+
+•	Highly reliable: There are two main reasons why open-source software are reliable. First, they are developed chiefly by skillful and talented experts who do their best to create high-quality programs. Second, they are worked on by tens or hundreds of people, which means there are numerous eyes that can monitor for the presence of bugs and many pairs of hands that can fix these defects within the shortest amount of time. Both factors lead to products that have excellent quality and helpful features and perform well most (if not all) of the time.
+Disadvantages:
+•	Vulnerable to malicious users: Many people have access to the source code of open-source software, but not all of them have good intentions. While a lot of people utilize their access to spot defects and make improvements to the program, others use this privilege to exploit the product’s vulnerabilities and create bugs that can infect hardware, steal identities, or just annoy other users. These rarely happen with commercially produced software since the companies who make them have stringent quality control processes and ensure that the program is almost perfect when released to the market.
+•	Might not be as user-friendly as commercial versions: This is not true for all open-source software since many of them (such as LibreOffice, Mozilla Firefox, and the Android operating system) are incredibly easy to use. However, there are several programs which are created mainly to cater to the developer’s wishes and bring his ideas to life. As a result, not much attention is given to the software’s user interface, making it difficult to use especially for those who are not really tech-savvy.
+•	Do not come with extensive support: Those who favor commercially produced programs say that these software gives them peace of mind. After all, since they know exactly who designed, created, and distributed the product, they have a clear idea of who they can hold liable if the program does not function properly or causes damage to their hardware. This is not exactly the case for open-source software. Since it is developed by numerous people, users exactly do not have a specific person or company they can point a finger to.
+Image:
+ 
+Challenges:
+There is always a major security risk using open source database because the database is open source so it is always open to malicious users.
+Data Access Technology:
+Because the database is open-source so its data access methods can be changed according to the need og the users.
+11.	Operational database
+The purpose of an operational database is to allow users to modify data in real-time. 
+Use: Operational databases are critical in business analytics and data warehousing. They can be set up either as relational databases or NoSQL, depending on needs. Conventional databases rely on batch processing, where commands are carried out in groups. Operational databases, on the other hand, allow you to add, edit and remove data at any moment, in real-time.
+Storage Mechanism: With operational databases, records can be added, removed, and modified in real time. Operational database management systems can be based on SQL, but a growing number are using NoSQL and nonstructured data.
+Advantages:
+•	Operational Databases systems are greatly versatile and accommodate distributed systems like NoSQL, SQL, New SQL Databases.
+•	These systems are highly available, fault-tolerant, and highly scalable as discussed.
+•	They are highly secured as they offer built-in support for encryption, auditing, and protection from cyber.
+•	They are extremely flexible and can work with multiple applications without losing the state of the database. Therefore, people at different locations or a department can incorporate application and services as per their needs without worrying about the state of the database.
+•	Such systems are often more economical as systems in an operational database are usually based on distributed networks and systems thereby reducing costs drastically and ensuring consistency.
+Disadvantages:
+•	They usually have a learning curve where personnel are required to give relevant training to manage such databases and that increases the overheads expenses.
+•	Even the installation process of such an operational database system requires time and effort where they need to be set up in an optimal way of meeting business goals and extracting most benefit from the system.
+•	Security could also be an issue where since the data is stored in a remote location having overall control could be difficult and we have seen recent examples of customer data being hacked from some of the most prominent tech companies.
+Image:
+ 
+Challenges:
+Security and installation ae major problems for operational database.
+Data Access Technology:
+Operational database management systems can be based on SQL but a growing number are using NoSQL and nonstructured data
+The End!
